@@ -1,0 +1,113 @@
+h1{
+    color: rgb(201, 200, 200);
+    font-size: 64px;
+    margin-left: 25%;
+}
+
+/*Empieza el menu*/
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(253, 186, 60);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background:rgb(255, 230, 1)
+}
+
+/* Termina el menu*/
+
+body{
+    background-image: url(./Imgs/4964-starry-sky-stars-space-dark-4k.jpg);
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    min-width: 1000px;
+}
+
+h2{
+    color: white;
+    margin-left: 5%;
+}
+
+Section{
+    margin-top: 70px;
+}
+
+img{
+    width: 240px;
+    height: 240px;
+    margin-right: 60px;
+
+    border: 5px solid black;
+}
+
+p{
+    color: white;
+    width: 80%;
+}
+
+/* Aca empieza el Footer */
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(20, 20, 20);
+}
+
+.contenedor_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.caja_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    color: white;
+    max-width: 350px;
+}
+
+.logo_footer{
+    color: rgb(201, 200, 200);
+    margin-left: 5%;
+}
+
+.terms{
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.caja_footer h4{
+    color: rgb(187, 187, 187);
+    font-weight: 700;
+}
+
+@media screen and (max-width:700px){
+    main{
+        min-width: 1000px;
+    }
+}

@@ -1,0 +1,200 @@
+/*Titulo*/
+
+h1{
+    color: rgb(201, 200, 200);
+    font-size: 64px;
+    margin-left: 25%;
+}
+
+/* Aca empieza el menu de nav */
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(253, 186, 60);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background:rgb(255, 230, 1)
+}
+
+/* Aca termina el nav */
+
+Body{
+    background-image: url(../Imgs/4964-starry-sky-stars-space-dark-4k.jpg);
+    background-size: cover;
+}
+
+main{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(253, 186, 60);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    min-width: 1200px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 70% auto
+}
+
+.texto{
+    margin-left: 10%;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.subtitulo{
+    font-size: 35px;
+}
+
+#logo1{
+    width: 230px;
+    height: 101px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#logo2{
+    width: 230px;
+    height: 114px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#logo3{
+    width: 220px;
+    height: 152px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+h2{
+    margin-top: 10%;
+}
+
+figure{
+    float: right;
+    max-width: 300px;
+    margin: 25px;
+}
+
+.historia{
+    float: left;
+    max-width: 300px;
+    margin: 25px;
+}
+
+/* Aca empieza el contenido de aside */
+
+.contenido{
+    width: 242px;
+    height: fit-content;
+    margin-top: 60%;
+    margin-left: 10%;
+    border: 5px solid rgb(5, 5, 5);
+    border-radius: 10px;
+    background-color: rgb(104, 105, 104);
+}
+
+.contenido h3{
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+}
+
+.portada{
+    width: 240px;
+    height: 240px;
+    border: 3px solid black;
+}
+
+.tabla{
+    display: grid;
+    grid-template-columns: 90px 90px;
+    padding-left: 9px;
+    padding-right: 9px;
+    width: 225px;
+    column-gap: 40px;;
+}
+
+/*Sticky sidebar*/
+
+.sticky{
+    position: sticky;
+    top: 20px;
+    margin-top: 10px;
+    padding-left: 30%;
+}
+
+.sticky_img{
+    max-height: 80px;
+    max-width: 80px;
+}
+
+/*Sticky sidebar fin*/
+
+/*Lista de la pag juegos*/
+.Gamelist{
+    padding-right: 80%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+/* Aca empieza el Footer */
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(20, 20, 20);
+}
+
+.contenedor_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.caja_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    color: white;
+    max-width: 350px;
+}
+
+.logo_footer{
+    color: rgb(201, 200, 200);
+    margin-left: 5%;
+}
+
+.terms{
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.caja_footer h4{
+    color: rgb(187, 187, 187);
+    font-weight: 700;
+}
